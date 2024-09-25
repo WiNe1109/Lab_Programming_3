@@ -7,7 +7,7 @@ dump:
 clean:
 	rm -f problem1.o problem1
 
-run: Problem1
+run: problem1
 	./problem1
 
 test: $(problem1)
