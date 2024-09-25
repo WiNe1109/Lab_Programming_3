@@ -10,5 +10,5 @@ clean:
 run: Problem1
 	./problem1
 
-test: $(Problem1)
+test: $(problem1)
 	./$(problem1) test
