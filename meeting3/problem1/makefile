@@ -1,14 +1,14 @@
 all:
-	g++ -o problem1 problem1.cpp
+	g++ -o Problem1 Problem1.cpp
 
 dump:
-	objdump -d problem1 > problem1.asm
+	objdump -d Problem1 > Problem1.asm
 
 clean:
-	rm -f problem1.o problem1
+	rm -f Problem1.o Problem1
 
-run: problem1
-	./problem1
+run: Problem1
+	./Problem1
 
-test: $(problem1)
-	./$(problem1) test
+test: $(Problem1)
+	./$(Problem1) test
