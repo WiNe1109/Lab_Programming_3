@@ -13,4 +13,3 @@ run: Problem1
 test: $(Problem1)
 	./$(Problem1) test
 
-
