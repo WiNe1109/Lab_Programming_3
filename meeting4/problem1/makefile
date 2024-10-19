@@ -8,7 +8,7 @@ Problem1.o: Problem1.cpp
 
 # Target to run the program (interactively)
 run: Problem1
-	./Problem1.cpp
+	./Problem1.exe
 
 # Target to compile the object Test file
 Problem1Test: Problem1Test.o
